@@ -1,3 +1,4 @@
+//testing
 import dotenv from "dotenv";
 dotenv.config();
 import { betterAuth } from "better-auth";
