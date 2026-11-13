@@ -1,0 +1,40 @@
+{
+  "name": "better auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec tsx server.js",
+    "start": "tsx server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.24.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@11.24.0",
+  "type": "module",
+  "dependencies": {
+    "@better-auth/prisma-adapter": "^1.7.14",
+    "@prisma/adapter-pg": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "better-auth": "^1.7.14",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "nodemailer": "^10.5.0",
+    "nodemon": "^3.1.14",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^8.0.2",
+    "prisma": "^7.10.1",
+    "tsx": "^4.23.15"
+  }
+}
